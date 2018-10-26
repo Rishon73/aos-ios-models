@@ -4,6 +4,33 @@
     <className>AOS_iOS_115</className>
     <objects>
         <object type="Application" technology="Mobile">
+            <name>Home</name>
+            <codeName>HomeApplication</codeName>
+            <description></description>
+            <identification>
+                <properties>
+                    <property name="Identifier" type="string" isRegExp="false">MC.Home</property>
+                    <property name="IsPackaged" type="boolean" isRegExp="false">false</property>
+                </properties>
+            </identification>
+            <children>
+                <object type="Button" technology="Mobile">
+                    <name>Allow</name>
+                    <codeName>AllowButton</codeName>
+                    <description></description>
+                    <identification>
+                        <properties>
+                            <property name="AccessibilityId" type="string" isRegExp="false">Allow</property>
+                            <property name="ClassName" type="string" isRegExp="false">Button</property>
+                            <property name="MobileCenterIndex" type="int" isRegExp="false">0</property>
+                            <property name="NativeClass" type="string" isRegExp="false">AlertButton</property>
+                            <property name="Text" type="string" isRegExp="false">Allow</property>
+                        </properties>
+                    </identification>
+                </object>
+            </children>
+        </object>
+        <object type="Application" technology="Mobile">
             <name>Advantage Shopping</name>
             <codeName>AdvantageShoppingApplication</codeName>
             <description>AOS for iOS v1.1.5</description>
@@ -14,6 +41,119 @@
                 </properties>
             </identification>
             <children>
+                <object type="Button" technology="Mobile">
+                    <name>Menu</name>
+                    <codeName>MenuButton</codeName>
+                    <description></description>
+                    <identification>
+                        <properties>
+                            <property name="AccessibilityId" type="string" isRegExp="false">Menu</property>
+                            <property name="ClassName" type="string" isRegExp="false">Button</property>
+                            <property name="MobileCenterIndex" type="int" isRegExp="false">1</property>
+                            <property name="NativeClass" type="string" isRegExp="false">UIButton</property>
+                        </properties>
+                    </identification>
+                </object>
+                <object type="Label" technology="Mobile">
+                    <name>LOG IN</name>
+                    <codeName>LOGINLabel</codeName>
+                    <description></description>
+                    <identification>
+                        <properties>
+                            <property name="AccessibilityId" type="string" isRegExp="false">LOG IN</property>
+                            <property name="ClassName" type="string" isRegExp="false">Label</property>
+                            <property name="Container" type="string" isRegExp="false">Table[0][0][0]</property>
+                            <property name="MobileCenterIndex" type="int" isRegExp="false">0</property>
+                            <property name="NativeClass" type="string" isRegExp="false">UILabel</property>
+                            <property name="Text" type="string" isRegExp="false">LOG IN</property>
+                        </properties>
+                    </identification>
+                </object>
+                <object type="EditField" technology="Mobile">
+                    <name>userNameLabel</name>
+                    <codeName>UserNameField</codeName>
+                    <description></description>
+                    <identification>
+                        <properties>
+                            <property name="AccessibilityId" type="string" isRegExp="false">userNameLabel</property>
+                            <property name="ClassName" type="string" isRegExp="false">Input</property>
+                            <property name="Hint" type="string" isRegExp="false">USER NAME</property>
+                            <property name="MobileCenterIndex" type="int" isRegExp="false">0</property>
+                            <property name="NativeClass" type="string" isRegExp="false">UIFloatLabelTextField</property>
+                        </properties>
+                    </identification>
+                </object>
+                <object type="EditField" technology="Mobile">
+                    <name>passwordLabel</name>
+                    <codeName>PasswordField</codeName>
+                    <description></description>
+                    <identification>
+                        <properties>
+                            <property name="AccessibilityId" type="string" isRegExp="false">passwordLabel</property>
+                            <property name="ClassName" type="string" isRegExp="false">Input</property>
+                            <property name="Hint" type="string" isRegExp="false">PASSWORD</property>
+                            <property name="MobileCenterIndex" type="int" isRegExp="false">1</property>
+                            <property name="NativeClass" type="string" isRegExp="false">UIFloatLabelTextField</property>
+                        </properties>
+                    </identification>
+                </object>
+                <object type="Button" technology="Mobile">
+                    <name>LOGIN</name>
+                    <codeName>LOGINButton</codeName>
+                    <description></description>
+                    <identification>
+                        <properties>
+                            <property name="AccessibilityId" type="string" isRegExp="false">LOGIN</property>
+                            <property name="ClassName" type="string" isRegExp="false">Button</property>
+                            <property name="MobileCenterIndex" type="int" isRegExp="false">1</property>
+                            <property name="NativeClass" type="string" isRegExp="false">UIButton</property>
+                            <property name="Text" type="string" isRegExp="false">LOGIN</property>
+                        </properties>
+                    </identification>
+                </object>
+                <object type="Label" technology="Mobile">
+                    <name>SIGN OUT</name>
+                    <codeName>SIGNOUTLabel</codeName>
+                    <description></description>
+                    <identification>
+                        <properties>
+                            <property name="AccessibilityId" type="string" isRegExp="false">SIGN OUT</property>
+                            <property name="ClassName" type="string" isRegExp="false">Label</property>
+                            <property name="Container" type="string" isRegExp="false">Table[0][0][0]</property>
+                            <property name="MobileCenterIndex" type="int" isRegExp="false">1</property>
+                            <property name="Text" type="string" isRegExp="false">SIGN OUT</property>
+                        </properties>
+                    </identification>
+                </object>
+                <object type="Label" technology="Mobile">
+                    <name>LAPTOPS115</name>
+                    <codeName>LAPTOPSLabel115</codeName>
+                    <description></description>
+                    <identification>
+                        <properties>
+                            <property name="AccessibilityId" type="string" isRegExp="false">LAPTOPS</property>
+                            <property name="ClassName" type="string" isRegExp="false">Label</property>
+                            <property name="Container" type="string" isRegExp="false">Table[0][0][0]</property>
+                            <property name="MobileCenterIndex" type="int" isRegExp="false">0</property>
+                            <property name="NativeClass" type="string" isRegExp="false">UILabel</property>
+                            <property name="Text" type="string" isRegExp="false">LAPTOPS</property>
+                        </properties>
+                    </identification>
+                </object>
+                <object type="Label" technology="Mobile">
+                    <name>LAPTOPS</name>
+                    <codeName>LAPTOPSLabel</codeName>
+                    <description></description>
+                    <identification>
+                        <properties>
+                            <property name="AccessibilityId" type="string" isRegExp="false">LAPTOPS</property>
+                            <property name="ClassName" type="string" isRegExp="false">Label</property>
+                            <property name="Container" type="string" isRegExp="false">Table[0][0][0]</property>
+                            <property name="MobileCenterIndex" type="int" isRegExp="false">0</property>
+                            <property name="Text" type="string" isRegExp="false">LAPTOPS</property>
+                        </properties>
+                    </identification>
+                </object>
                 <object type="Button" technology="Mobile">
                     <name>Ok</name>
                     <codeName>OkButton</codeName>
@@ -52,20 +192,6 @@
                         </properties>
                     </identification>
                 </object>
-                <object type="Label" technology="Mobile">
-                    <name>LAPTOPS</name>
-                    <codeName>LAPTOPSLabel</codeName>
-                    <description></description>
-                    <identification>
-                        <properties>
-                            <property name="AccessibilityId" type="string" isRegExp="false">LAPTOPS</property>
-                            <property name="ClassName" type="string" isRegExp="false">Label</property>
-                            <property name="Container" type="string" isRegExp="false">Table[0][0][0]</property>
-                            <property name="MobileCenterIndex" type="int" isRegExp="false">0</property>
-                            <property name="Text" type="string" isRegExp="false">LAPTOPS</property>
-                        </properties>
-                    </identification>
-                </object>
                 <object type="Button" technology="Mobile">
                     <name>Back</name>
                     <codeName>BackButton</codeName>
@@ -90,20 +216,6 @@
                         </properties>
                     </identification>
                 </object>
-                <object type="Label" technology="Mobile">
-                    <name>SIGN OUT</name>
-                    <codeName>SIGNOUTLabel</codeName>
-                    <description></description>
-                    <identification>
-                        <properties>
-                            <property name="AccessibilityId" type="string" isRegExp="false">SIGN OUT</property>
-                            <property name="ClassName" type="string" isRegExp="false">Label</property>
-                            <property name="Container" type="string" isRegExp="false">Table[0][0][0]</property>
-                            <property name="MobileCenterIndex" type="int" isRegExp="false">1</property>
-                            <property name="Text" type="string" isRegExp="false">SIGN OUT</property>
-                        </properties>
-                    </identification>
-                </object>
                 <object type="Button" technology="Mobile">
                     <name>Yes</name>
                     <codeName>YesButton</codeName>
@@ -118,76 +230,6 @@
                     </identification>
                 </object>
                 <object type="Button" technology="Mobile">
-                    <name>Menu115</name>
-                    <codeName>MenuButton115</codeName>
-                    <description></description>
-                    <identification>
-                        <properties>
-                            <property name="AccessibilityId" type="string" isRegExp="false">Menu</property>
-                            <property name="ClassName" type="string" isRegExp="false">Button</property>
-                            <property name="MobileCenterIndex" type="int" isRegExp="false">1</property>
-                            <property name="NativeClass" type="string" isRegExp="false">UIButton</property>
-                        </properties>
-                    </identification>
-                </object>
-                <object type="Label" technology="Mobile">
-                    <name>LOG IN115</name>
-                    <codeName>LOGINLabel115</codeName>
-                    <description></description>
-                    <identification>
-                        <properties>
-                            <property name="AccessibilityId" type="string" isRegExp="false">LOG IN</property>
-                            <property name="ClassName" type="string" isRegExp="false">Label</property>
-                            <property name="Container" type="string" isRegExp="false">Table[0][0][0]</property>
-                            <property name="MobileCenterIndex" type="int" isRegExp="false">0</property>
-                            <property name="NativeClass" type="string" isRegExp="false">UILabel</property>
-                            <property name="Text" type="string" isRegExp="false">LOG IN</property>
-                        </properties>
-                    </identification>
-                </object>
-                <object type="EditField" technology="Mobile">
-                    <name>userNameLabel</name>
-                    <codeName>UserNameLabelEditField115</codeName>
-                    <description></description>
-                    <identification>
-                        <properties>
-                            <property name="AccessibilityId" type="string" isRegExp="false">userNameLabel</property>
-                            <property name="ClassName" type="string" isRegExp="false">Input</property>
-                            <property name="Hint" type="string" isRegExp="false">USER NAME</property>
-                            <property name="MobileCenterIndex" type="int" isRegExp="false">0</property>
-                            <property name="NativeClass" type="string" isRegExp="false">UIFloatLabelTextField</property>
-                        </properties>
-                    </identification>
-                </object>
-                <object type="EditField" technology="Mobile">
-                    <name>passwordLabel</name>
-                    <codeName>PasswordLabelEditField115</codeName>
-                    <description></description>
-                    <identification>
-                        <properties>
-                            <property name="AccessibilityId" type="string" isRegExp="false">passwordLabel</property>
-                            <property name="ClassName" type="string" isRegExp="false">Input</property>
-                            <property name="Hint" type="string" isRegExp="false">PASSWORD</property>
-                            <property name="MobileCenterIndex" type="int" isRegExp="false">1</property>
-                            <property name="NativeClass" type="string" isRegExp="false">UIFloatLabelTextField</property>
-                        </properties>
-                    </identification>
-                </object>
-                <object type="Button" technology="Mobile">
-                    <name>LOGIN115</name>
-                    <codeName>LOGINButton115</codeName>
-                    <description></description>
-                    <identification>
-                        <properties>
-                            <property name="AccessibilityId" type="string" isRegExp="false">LOGIN</property>
-                            <property name="ClassName" type="string" isRegExp="false">Button</property>
-                            <property name="MobileCenterIndex" type="int" isRegExp="false">1</property>
-                            <property name="NativeClass" type="string" isRegExp="false">UIButton</property>
-                            <property name="Text" type="string" isRegExp="false">LOGIN</property>
-                        </properties>
-                    </identification>
-                </object>
-                <object type="Button" technology="Mobile">
                     <name>BiometricYES115</name>
                     <codeName>BiometricYESButton115</codeName>
                     <description></description>
@@ -198,21 +240,6 @@
                             <property name="MobileCenterIndex" type="int" isRegExp="false">6</property>
                             <property name="NativeClass" type="string" isRegExp="false">_UIAlertControllerActionView</property>
                             <property name="Text" type="string" isRegExp="false">YES</property>
-                        </properties>
-                    </identification>
-                </object>
-                <object type="Label" technology="Mobile">
-                    <name>LAPTOPS115</name>
-                    <codeName>LAPTOPSLabel115</codeName>
-                    <description></description>
-                    <identification>
-                        <properties>
-                            <property name="AccessibilityId" type="string" isRegExp="false">LAPTOPS</property>
-                            <property name="ClassName" type="string" isRegExp="false">Label</property>
-                            <property name="Container" type="string" isRegExp="false">Table[0][0][0]</property>
-                            <property name="MobileCenterIndex" type="int" isRegExp="false">0</property>
-                            <property name="NativeClass" type="string" isRegExp="false">UILabel</property>
-                            <property name="Text" type="string" isRegExp="false">LAPTOPS</property>
                         </properties>
                     </identification>
                 </object>
@@ -326,6 +353,20 @@
                             <property name="MobileCenterIndex" type="int" isRegExp="false">0</property>
                             <property name="NativeClass" type="string" isRegExp="false">_UIAlertControllerActionView</property>
                             <property name="Text" type="string" isRegExp="false">Ok</property>
+                        </properties>
+                    </identification>
+                </object>
+                <object type="Button" technology="Mobile">
+                    <name>NO</name>
+                    <codeName>NOButton</codeName>
+                    <description></description>
+                    <identification>
+                        <properties>
+                            <property name="AccessibilityId" type="string" isRegExp="false">NO</property>
+                            <property name="ClassName" type="string" isRegExp="false">Button</property>
+                            <property name="MobileCenterIndex" type="int" isRegExp="false">5</property>
+                            <property name="NativeClass" type="string" isRegExp="false">_UIAlertControllerActionView</property>
+                            <property name="Text" type="string" isRegExp="false">NO</property>
                         </properties>
                     </identification>
                 </object>

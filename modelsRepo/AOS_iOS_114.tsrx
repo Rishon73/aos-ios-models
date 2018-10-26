@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <applicationModel>
     <name>Application Model</name>
-    <className>AOS_iOS_114</className>
+    <className>appModel</className>
     <objects>
         <object type="Application" technology="Mobile">
             <name>Home</name>
@@ -71,8 +71,8 @@
                 </object>
                 <object type="EditField" technology="Mobile">
                     <name>userNameLabel</name>
-                    <codeName>UserNameLabelEditField</codeName>
-                    <description></description>
+                    <codeName>UserNameField</codeName>
+                    <description>mod by shahar</description>
                     <identification>
                         <properties>
                             <property name="AccessibilityId" type="string" isRegExp="false">userNameLabel</property>
@@ -85,8 +85,8 @@
                 </object>
                 <object type="EditField" technology="Mobile">
                     <name>passwordLabel</name>
-                    <codeName>PasswordLabelEditField</codeName>
-                    <description></description>
+                    <codeName>PasswordField</codeName>
+                    <description>Mod by shahar</description>
                     <identification>
                         <properties>
                             <property name="AccessibilityId" type="string" isRegExp="false">passwordLabel</property>
@@ -142,8 +142,8 @@
                     </identification>
                 </object>
                 <object type="UiObject" technology="Mobile">
-                    <name>MobileObject</name>
-                    <codeName>MobileObjectUiObject</codeName>
+                    <name>SelectedLaptop</name>
+                    <codeName>SelectedLaptop</codeName>
                     <description></description>
                     <identification>
                         <properties>
@@ -151,6 +151,21 @@
                             <property name="Container" type="string" isRegExp="false">CollectionView[0][1][0]</property>
                             <property name="MobileCenterIndex" type="int" isRegExp="false">0</property>
                             <property name="NativeClass" type="string" isRegExp="false">UIImageView</property>
+                        </properties>
+                    </identification>
+                </object>
+                <object type="Label" technology="Mobile">
+                    <name>SelectedItem</name>
+                    <codeName>SelectedItem</codeName>
+                    <description></description>
+                    <identification>
+                        <properties>
+                            <property name="AccessibilityId" type="string" isRegExp="false">HP Chromebook 14 G1(ES)</property>
+                            <property name="ClassName" type="string" isRegExp="false">Label</property>
+                            <property name="Container" type="string" isRegExp="false">CollectionView[0][1][0]</property>
+                            <property name="MobileCenterIndex" type="int" isRegExp="false">0</property>
+                            <property name="NativeClass" type="string" isRegExp="false">UILabel</property>
+                            <property name="Text" type="string" isRegExp="false">HP Chromebook 14 G1(ES)</property>
                         </properties>
                     </identification>
                 </object>
