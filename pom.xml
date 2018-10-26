@@ -3,7 +3,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.mf</groupId>
     <artifactId>iOSAppModel</artifactId>
-    <version>1.1.4</version>
+    <version>1.1.5</version>
     <name>LeanFT Application Model</name>
     <description>LeanFT Application Model</description>
 
